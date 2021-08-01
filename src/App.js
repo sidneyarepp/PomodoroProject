@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import PomodoroTwo from "./pomodoro/PomodoroTwo";
+import Pomodoro from "./pomodoro/Pomodoro";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1>Pomodoro Timer</h1>
       </header>
       <div className="container">
-        <PomodoroTwo />
+        <Pomodoro />
       </div>
     </div>
   );

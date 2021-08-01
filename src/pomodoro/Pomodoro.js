@@ -6,7 +6,7 @@ import PlayPauseStop from './PlayPauseStop';
 import CurrentSession from './CurrentSession';
 
 
-function PomodoroTwo() {
+function Pomodoro() {
 
     // These functions are defined outside of the component to insure they do not have access to state
     // and are, therefore more likely to be pure.
@@ -146,4 +146,4 @@ function PomodoroTwo() {
     )
 }
 
-export default PomodoroTwo;
+export default Pomodoro;
